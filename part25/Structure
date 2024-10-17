@@ -1,0 +1,50 @@
+
+
+
+project/
+├── register.php
+├── login.php
+├── welcome.php
+├── logout.php
+└── set_language.php
+
+& به &amp;
+< به &lt;
+> به &gt;
+" به &quot;
+' به &#039;
+
+
+
+
+
+Sessions:
+
+Session in PHP is a way to store
+information (in variables) to be used across multiple pages. Unlike cookies,
+sessions are stored on the server.When a session is started,
+PHP creates a unique identifier for that session (a session ID),
+which is stored on the client side as a cookie or passed in the URL.
+
+
+Usage:
+
+- Sore sensitive information securely on the server.
+- Maintain user state and data across multiple pages.
+- Typically used for login systems, shopping carts,
+and other data that needs to persist between page loads.
+
+-----------------------------------------------------------
+
+Cookies:
+
+Cookie in PHP is a small file that the server embeds on the user's computer.
+ Each time the same computer requests a page with a browser,
+ will send the cookie too. Cookies can be used to remember information about the
+ user and their preferences.
+
+ Usage:
+
+ Store user preferences and settings.
+ Track user behavior and sessions.
+ Remember login credentials (with caution for security).
